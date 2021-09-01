@@ -1,9 +1,9 @@
 let vetvendedores = []
-let op = Number(prompt(`Escolha a opção:\n1.Cadastrar vendedor\n2.Cadastrar venda\n3.Consultar as vendas do funcionário no mês\n4.Consultar total de vendas de um vendedor\n5.Mostrar o número do vendedor que mais vendeu no mês\n6.Mostrar o número do mês com mais vendas\n7.Finalzar programa`))
+let opcao = Number(prompt(`Escolha a opcaoção:\n1.Cadastrar vendedor\n2.Cadastrar venda\n3.Consultar as vendas do funcionário no mês\n4.Consultar total de vendas de um vendedor\n5.Mostrar o número do vendedor que mais vendeu no mês\n6.Mostrar o número do mês com mais vendas\n7.Finalzar programa`))
 let vetvendas = []
 
-while(op!=7){
-    switch(op){
+while(opcao!=7){
+    switch(opcao){
         case 1: let objeto = {
                     nome: prompt(`Insira o nome do vendedor`),
                     codigo: Number(prompt(`Inserir o código do vendedor`))
@@ -104,8 +104,8 @@ while(op!=7){
                     alert(`Nenhuma venda realizada`)
                 }
                 break
-        default: alert(`Opção Invalida!`)
+        default: alert(`opcaoção Invalida!`)
                 break
     }
-    op = Number(prompt(`Escolha a opção:\n1.Cadastrar vendedor\n2.Cadastrar venda\n3.Consultar as vendas do funcionário no mês\n4.Consultar total de vendas de um vendedor\n5.Mostrar o número do vendedor que mais vendeu no mês\n6.Mostrar o número do mês com mais vendas\n7.Finalzar programa`))
+    opcao = Number(prompt(`Escolha a opcaoção:\n1.Cadastrar vendedor\n2.Cadastrar venda\n3.Consultar as vendas do funcionário no mês\n4.Consultar total de vendas de um vendedor\n5.Mostrar o número do vendedor que mais vendeu no mês\n6.Mostrar o número do mês com mais vendas\n7.Finalzar programa`))
 }

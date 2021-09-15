@@ -22,7 +22,7 @@ console.log(jogo3)
 let jogo4 = {
     Nome: "The Last of us",
     Genero: "Horror",
-    Ano: 2013,
+    Ano: 2013
 }
 
 console.log(jogo4)
@@ -42,5 +42,3 @@ let soma
 for(let i=0;i<3;i++){
     soma = soma+vetores[i].valor
 }
-
-console.log(soma/4)
